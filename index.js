@@ -1,3 +1,6 @@
+function testFunc() {
+  return "hi"	 
+
 const tutorials = [
   'what does the this keyword mean?',
   'What is the Contutorialuctor OO pattern?',
@@ -11,9 +14,10 @@ const tutorials = [
   'what is JSONP?'
 ];
 
-const titleCased = () => {
-  return tutorials
-}
+
+
+
+
 const titleCased = tutorials.map(function (tutorial) {
   tutorial = tutorial.split(' ');
   for (let i = 0; i < tutorial.length; i++) {
